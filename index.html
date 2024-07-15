@@ -8,13 +8,21 @@
     <style>
         body {
             background-color: #f8f9fa;
-            padding: 20px;
+            padding-top: 30px;
+            
         }
         .table-container {
             margin-top: 20px;
         }
         .chart-container {
             margin-top: 40px;
+        }
+        footer {
+            margin-top: 40px;
+            padding: 20px;
+            background-color: #343a40;
+            color: white;
+            text-align: center;
         }
     </style>
 </head>
@@ -42,10 +50,13 @@
                 </tbody>
             </table>
         </div>
-        <div class="chart-container">
+        <div class="chart-container mb-5 pb-5">
             <canvas id="transaction-chart"></canvas>
         </div>
     </div>
+    <footer class="fixed-bottom ">
+        Designed with ❤️ By Cosmas ALor
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="app.js"></script>
 </body>
